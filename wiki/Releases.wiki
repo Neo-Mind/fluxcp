@@ -11,13 +11,13 @@ _RC's will be released prior to marking a particular version as stable to ensure
 
   * None
 
-= Alpha =
-_These are releases that have undergone very little or no testing, and are not at all considered safe in a production environment._
+= Beta =
+_These are releases that haven't undergone sufficient testing to be considered safe in a production environment._
 
   * None
 
-= Beta =
-_These are releases that haven't undergone sufficient testing to be considered safe in a production environment._
+= Alpha =
+_These are releases that have undergone very little or no testing, and are not at all considered safe in a production environment._
 
   * None
 
