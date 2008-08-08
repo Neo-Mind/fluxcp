@@ -11,7 +11,6 @@ The features have been divided into relevant (or what we think are relevant) sec
   * Easily extendable API. ^Planned^
   * Donation/points interface using RO cash points payable via popular payment gateways and PayPal IPN ^Planned^
   * Prepared Invision PowerBoard and phpBB SQL scripts for integrating users database with said forum software ^Planned^
-  * Item/mob searches automatically based on selected server rates. ^Planned^
 
 == Player-Informational ==
 
@@ -22,6 +21,7 @@ The features have been divided into relevant (or what we think are relevant) sec
   * Homunculus Ladder - Homunculus Name, Homunculus Owner, Homunculus Type, Homunculus Level, Homunculus Intimacy. ^Planned^
   * MvP Ladder - Name, Class, Level, Number of MvPs Killed. ^Planned^
   * Castle Information - List of castles with currently ruling guild. Guild name will be clickable to provide information on the guild including Guild Name, Leader, Guild Level, Members, Members Online, Avg Level, Guild Experience. (Unavailable during WoE) ^Planned^
+  * Item and Mob Database automatically. Rates will automatically be adjusted based on server rates. ^Planned^
 
 == Player-Account/Character Services ==
 
