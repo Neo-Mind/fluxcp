@@ -1,0 +1,20 @@
+#summary Outlines current and to-do features.
+#labels Featured
+
+= Features =
+
+Here is an outline of currently implemented features and features that are planned or underway.
+The features have been divided into relevant (or what we think are relevant) sections.
+
+== General ==
+
+  * Clean PHP-based configuration format. ^In Progress^
+  * Multi-server support (this includes multiple login servers and char/map server pairs). ^In Progress^
+  * Easily extendable API. ^Planned^
+  * Donation/points interface using RO cash points payable via popular payment gateways and PayPal IPN ^Planned^
+  * Prepared Invision PowerBoard and phpBB SQL scripts for integrating users database with said forum software ^Planned^
+  * Item/mob searches automatically based on selected server rates. ^Planned^
+
+== Administrator ==
+
+  * GM access control and promotion / demotion management. ^Planned^
