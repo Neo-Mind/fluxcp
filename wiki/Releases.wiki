@@ -13,8 +13,8 @@ _RC's will be released prior to marking a particular version as stable to ensure
   * None
 
 
-= Unstable =
-_These are releases that havene't undergone sufficient testing to be considered safe in a production environment._
+= Beta =
+_These are releases that haven't undergone sufficient testing to be considered safe in a production environment._
 _These kinds of releases will generally be made when we want to test new features for Flux and receive community feedback._
 
   * None
