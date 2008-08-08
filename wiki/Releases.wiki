@@ -4,6 +4,9 @@
 = Stable =
 ==== The stable releases are recommended for people who run Flux in a production environment! ====
 
+= Release Candidates =
+==== RC's will be released prior to marking a particular version as stable to ensure the release is nearly production ready. ====
+
 = Unstable =
 ==== These are releases that havene't undergone sufficient testing to be considered safe in a production environment. ====
 ==== These kinds of releases will generally be made when we want to test new features for Flux and receive community feedback. ====
