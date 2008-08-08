@@ -2,7 +2,7 @@
 #labels Featured
 
 = Stable =
-=== The stable releases are recommended for people who run Flux in a production environment! ===
+==== The stable releases are recommended for people who run Flux in a production environment! ====
 
 = Unstable =
-=== These are that havene't undergone sufficient testing to be considered safe in a production environment.  These kinds of releases will generally be made when we want to test our new featurs and receive community feedback. ===
+==== These are that havene't undergone sufficient testing to be considered safe in a production environment.  These kinds of releases will generally be made when we want to test our new featurs and receive community feedback. ====
