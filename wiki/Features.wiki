@@ -1,8 +1,6 @@
 #summary Outlines current and to-do features.
 #labels Featured
 
-= Features =
-
 Here is an outline of currently implemented features and features that are planned or underway.
 The features have been divided into relevant (or what we think are relevant) sections.
 
