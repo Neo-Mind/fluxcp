@@ -181,7 +181,6 @@ hair - hair style
 hair_color - hair dye
 gender - character gender
 class - job id
-
 lv - base level
 exp - guild experience devoted
 exp_payper - ???
