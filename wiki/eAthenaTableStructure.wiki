@@ -28,7 +28,7 @@ char_id - character id
 nameid - item id
 amount - quantity
 equip - location equipped
-identify - identified or unidentified
+identify - identified status
 refine - refine rate of item
 attribute - attribute of item
 card0 - 1st card in item
@@ -181,6 +181,7 @@ hair - hair style
 hair_color - hair dye
 gender - character gender
 class - job id
+
 lv - base level
 exp - guild experience devoted
 exp_payper - ???
@@ -209,8 +210,201 @@ guild_id - guild id
 nameid - item id
 amount - quantity
 equip - location equipped
-identify - identified or unidentified
+identify - identified status
 refine - refine rate of item
+attribute - attribute of item
+card0 - 1st card in item
+card1 - 2nd card in item
+card2 - 3rd card in item
+card3 - 4th card in item
+}}}
+== homunculus ==
+{{{
+homun_id - unique homunculus id
+char_id - character id
+class - homunculus type id
+level - homunculus level
+exp - homunculus exp
+intimacy - intimacy level
+hunger - hunger level
+str - strength
+agi - agility
+vit -vitality
+int - intelligence
+dex - dexterity
+luk - luck
+hp - current hp
+max_hp - maximum hp
+sp - current sp
+max_sp - maximum sp
+skill_point - available skill points
+alive - alive status
+rename_flag - renamed status
+vaporize - ???
+}}}
+== interlog ==
+{{{
+time - datetime of action
+log - action
+}}}
+== inventory ==
+{{{
+id - unique item id
+char_id - character id
+nameid - item id
+amount - quantity
+equip - location equipped
+identify - identified status
+refine - refine rate of item
+attribute - attribute of item
+card0 - 1st card in item
+card1 - 2nd card in item
+card2 - 3rd card in item
+card3 - 4th card in item
+}}}
+== ipbanlist ==
+{{{
+list - ip address
+btime - banishment datetime
+rtime - banishment expiriration datetime
+reason - banishment reason
+}}}
+== login ==
+{{{
+account_id - account id
+userid - username
+user_pass - password
+sex - account gender type
+email - email address
+level - gm level
+state - account state
+unban_time - banishment expiration time
+expiration_time - account expiration time
+logincount - number of logins
+lastlogin - datetime of last login
+last_ip - last ip address
+}}}
+== mail ==
+{{{
+id - unique mail id
+send_name - sender characted name
+send_id - sender character id
+dest_name - destination character name
+dest_id - destination character id
+title - message title
+message - message body
+time - time sent
+status - received status
+zeny - zeny attached
+nameid - item id attached
+amount - quantity of item attached
+refine - refine rate of item attached
+attribute - attribute of item attached
+identify - identified status of item attached
+card0 - 1st card in item attached
+card1 - 2nd card in item attached
+card2 - 3rd card in item attached
+card3 - 4th card in item attached
+}}}
+== mapreg ==
+{{{
+varname - array name
+index - index
+value - value
+}}}
+== memo ==
+{{{
+memo_id - unique memo id
+char_id - character id
+map - mapname
+x - x coordinate
+y - y coordinate
+}}}
+== party ==
+{{{
+party_id - unique party id
+name - party name
+exp - experience sharing status
+item - item sharing status
+leader_id - party leader account id
+leader_char - party leader character id
+}}}
+== pet ==
+{{{
+pet_id - unique pet id
+class - pet type id
+name - pet name
+account_id - owner account id
+char_id - owner character id
+level - pet level
+egg_id - pet egg item id
+equip - pet equip status
+intimate - intimacy level
+hungry - hunger level
+rename_flag - renamed status
+incuvate - ???
+}}}
+== quest ==
+{{{
+char_id - character id
+query_id - quest id
+state - complete status
+}}}
+== quest_objective ==
+{{{
+quest_id - quest id
+count - ???
+name - ???
+num - ???
+char_id - character id
+}}}
+== ragsrvinfo ==
+{{{
+index - unique server index
+name - server name
+exp - base exp rate
+jexp - job exp rate
+drop - item drop rate
+motd - message of the day
+}}}
+== sc_data ==
+{{{
+account_id - account id
+char_id - char id
+type - ???
+tick - ???
+val1 - ???
+val2 - ???
+val3 - ???
+val4 - ???
+}}}
+== skill ==
+{{{
+char_id - character id
+id - skill id
+lv - skill level
+}}}
+== skill_homunculus ==
+{{{
+homun_id - homunculus id
+id - skill id
+lv - skill level
+}}}
+== sstatus ==
+{{{
+index - ???
+name - ???
+user - ???
+}}}
+== storage ==
+{{{
+id - unique item id
+account_id - account id
+nameid - item id
+amount - quantity
+equip - equip location
+identify - identified status
+refine - refine rate
 attribute - attribute of item
 card0 - 1st card in item
 card1 - 2nd card in item
