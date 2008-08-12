@@ -1,13 +1,146 @@
-#summary One-sentence summary of this page.
+#summary A list of eA-related tables and columns with explanations as to what they do.
 
 = Introduction =
 
-Add your content here.
+_auction_
+auction_id - unique auction id
+seller_id - character id of seller
+seller_name - character name of seller
+buyer_id - character id of highest bidder
+buyer_name - character name of highest bidder
+price - current bid
+buynow - autosell price
+hours - length of auction in hours
+timestamp - integer format datetime
+nameid - item id of item
+item_name - name of item
+type - type of item
+refine - refine rate of item
+attribute - attribute of item
+card0 - 1st card in item
+card1 - 2nd card in item
+card2 - 3rd card in item
+card3 - 4th card in item
 
+_cart_inventory_
 
-= Details =
+id - unique item id
+char_id - character id
+nameid - item id
+amount - quantity
+equip - location equipped
+identify - identified or unidentified
+refine - refine rate of item
+attribute - attribute of item
+card0 - 1st card in item
+card1 - 2nd card in item
+card2 - 3rd card in item
+card3 - 4th card in item
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+_char_
+
+char_id - character id
+account_id - account id
+char_num - character slot
+name - character name
+class - job id
+base_level - base level
+job_level - job level
+base_exp - base experience
+job_exp - job experience
+zeny - amount of zeny
+str - strength
+agi - agility
+vit -vitality
+int - intelligence
+dex - dexterity
+luk - luck
+max_hp - maximum hp
+hp - current hp
+max_sp - maximum sp
+sp - current sp
+status_point - number of status points available
+skill_point - number of skill points available
+option - character options
+karma - karma value
+manner - manner points
+party_id - id of party character belongs to
+guild_id - id of guild character belongs to
+pet_id - id of pet character owns
+homun_id - id of homunculus character owns
+hair - hair style
+hair_color - hair dye
+clothes_color - cloth palette
+weapon - view id of equipped weapon
+shield - view id of equipped shield
+head_top - view id of top headgear
+head_mid - view id of middle headgear
+head_bottom - view id of bottom headgear
+last_map - current map
+last_x - current x coordinate
+last_y - current y coordinate
+save_map - spawn map
+save_x - spawn x
+save_y - spawn y
+partner_id - character id of spouse
+online - online status
+father - character id of parent1
+mother - character id of parent2
+child - character id of child
+fame - fame points
+
+_charlog_
+
+time - datetime of action
+char_msg - action
+account_id - account id
+char_num - character slot
+name - character name
+str - strength
+agi - agility
+vit -vitality
+int - intelligence
+dex - dexterity
+luk - luck
+hair - hair style
+hair_color - hair dye
+
+_friends_
+
+char_id - character id
+friend_account - friend's account id
+friend_id - friend's character id
+
+_global_reg_value_
+
+char_id - character id
+str - variable name
+value - variable value
+type - type of variable
+account_id - account id
+
+_guild_
+
+guild_id - unique guild id
+name - guild name
+char_id - character id of guildleader
+master - name of guildleader
+guild_lv - guild level
+connect_member - online members in guild
+max_member - max number of guild members
+average_lv - average level of guild members
+exp - guild exp
+next_exp - guild exp needed to next guild level
+skill_point - available guild skill points
+mes1 - notice line 1
+mes2 - notice line 2
+emblem_len - size of emblem
+emblem_id - emblem id
+emblem_data - emblem data
+
+_guild_alliance_
+
+guild_id - guild id
+opposition - alliance status
+alliance_id - other guild id
+name - other guild name
