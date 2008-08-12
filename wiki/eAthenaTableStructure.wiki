@@ -1,6 +1,7 @@
 #summary A list of eA-related tables and columns with explanations as to what they do.
 
 == auction ==
+{{{
 auction_id - unique auction id
 seller_id - character id of seller
 seller_name - character name of seller
@@ -19,9 +20,9 @@ card0 - 1st card in item
 card1 - 2nd card in item
 card2 - 3rd card in item
 card3 - 4th card in item
-
+}}}
 == cart_inventory ==
-
+{{{
 id - unique item id
 char_id - character id
 nameid - item id
@@ -34,9 +35,9 @@ card0 - 1st card in item
 card1 - 2nd card in item
 card2 - 3rd card in item
 card3 - 4th card in item
-
+}}}
 == char ==
-
+{{{
 char_id - character id
 account_id - account id
 char_num - character slot
@@ -86,9 +87,9 @@ father - character id of parent1
 mother - character id of parent2
 child - character id of child
 fame - fame points
-
+}}}
 == charlog ==
-
+{{{
 time - datetime of action
 char_msg - action
 account_id - account id
@@ -102,23 +103,23 @@ dex - dexterity
 luk - luck
 hair - hair style
 hair_color - hair dye
-
+}}}
 == friends ==
-
+{{{
 char_id - character id
 friend_account - friend's account id
 friend_id - friend's character id
-
+}}}
 == global_reg_value ==
-
+{{{
 char_id - character id
 str - variable name
 value - variable value
 type - type of variable
 account_id - account id
-
+}}}
 == guild ==
-
+{{{
 guild_id - unique guild id
 name - guild name
 char_id - character id of guildleader
@@ -135,16 +136,16 @@ mes2 - notice line 2
 emblem_len - size of emblem (???)
 emblem_id - emblem id (???)
 emblem_data - emblem data (???)
-
+}}}
 == guild_alliance ==
-
+{{{
 guild_id - guild id
 opposition - alliance status
 alliance_id - other guild id
 name - other guild name
-
+}}}
 == guild_castle ==
-
+{{{
 castle_id - castle id
 guild_id - guild id
 economy - economy investment
@@ -163,16 +164,16 @@ visibleG4 - ???
 visibleG5 - ???
 visibleG6 - ???
 visibleG7 - ???
-
+}}}
 == guild_expulsion ==
-
+{{{
 guild_id - guild id
 account_id - account id
 name - character name
 mes - expulsion reason
-
+}}}
 == guild_member ==
-
+{{{
 guild_id - guild id
 account_id - account id
 char_id - character id
@@ -186,23 +187,23 @@ exp_payper - ???
 online - online status
 position - guild position id
 name - character name
-
+}}}
 == guild_position ==
-
+{{{
 guild_id - guild id
 position - position id
 name - position name
 mode - guild abilities
 exp_mode - taxed percentage
-
+}}}
 == guild_skill ==
-
+{{{
 guild_id - guild id
 id - skill id
 lv - skill level
-
+}}}
 == guild_storage ==
-
+{{{
 id - unique item id
 guild_id - guild id
 nameid - item id
@@ -215,3 +216,4 @@ card0 - 1st card in item
 card1 - 2nd card in item
 card2 - 3rd card in item
 card3 - 4th card in item
+}}}
