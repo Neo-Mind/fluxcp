@@ -1,8 +1,6 @@
 #summary A list of eA-related tables and columns with explanations as to what they do.
 
-= Introduction =
-
-_auction_
+== auction ==
 auction_id - unique auction id
 seller_id - character id of seller
 seller_name - character name of seller
@@ -22,7 +20,7 @@ card1 - 2nd card in item
 card2 - 3rd card in item
 card3 - 4th card in item
 
-_cart_inventory_
+== cart_inventory ==
 
 id - unique item id
 char_id - character id
@@ -37,7 +35,7 @@ card1 - 2nd card in item
 card2 - 3rd card in item
 card3 - 4th card in item
 
-_char_
+== char ==
 
 char_id - character id
 account_id - account id
@@ -89,7 +87,7 @@ mother - character id of parent2
 child - character id of child
 fame - fame points
 
-_charlog_
+== charlog ==
 
 time - datetime of action
 char_msg - action
@@ -105,13 +103,13 @@ luk - luck
 hair - hair style
 hair_color - hair dye
 
-_friends_
+== friends ==
 
 char_id - character id
 friend_account - friend's account id
 friend_id - friend's character id
 
-_global_reg_value_
+== global_reg_value ==
 
 char_id - character id
 str - variable name
@@ -119,7 +117,7 @@ value - variable value
 type - type of variable
 account_id - account id
 
-_guild_
+== guild ==
 
 guild_id - unique guild id
 name - guild name
@@ -134,13 +132,86 @@ next_exp - guild exp needed to next guild level
 skill_point - available guild skill points
 mes1 - notice line 1
 mes2 - notice line 2
-emblem_len - size of emblem
-emblem_id - emblem id
-emblem_data - emblem data
+emblem_len - size of emblem (???)
+emblem_id - emblem id (???)
+emblem_data - emblem data (???)
 
-_guild_alliance_
+== guild_alliance ==
 
 guild_id - guild id
 opposition - alliance status
 alliance_id - other guild id
 name - other guild name
+
+== guild_castle ==
+
+castle_id - castle id
+guild_id - guild id
+economy - economy investment
+defense - defense investment
+triggerE - ???
+triggerD - ???
+nextTime - ???
+payTime - ???
+createTime - ???
+visibleC - ???
+visibleG0 - ???
+visibleG1 - ???
+visibleG2 - ???
+visibleG3 - ???
+visibleG4 - ???
+visibleG5 - ???
+visibleG6 - ???
+visibleG7 - ???
+
+== guild_expulsion ==
+
+guild_id - guild id
+account_id - account id
+name - character name
+mes - expulsion reason
+
+== guild_member ==
+
+guild_id - guild id
+account_id - account id
+char_id - character id
+hair - hair style
+hair_color - hair dye
+gender - character gender
+class - job id
+lv - base level
+exp - guild experience devoted
+exp_payper - ???
+online - online status
+position - guild position id
+name - character name
+
+== guild_position ==
+
+guild_id - guild id
+position - position id
+name - position name
+mode - guild abilities
+exp_mode - taxed percentage
+
+== guild_skill ==
+
+guild_id - guild id
+id - skill id
+lv - skill level
+
+== guild_storage ==
+
+id - unique item id
+guild_id - guild id
+nameid - item id
+amount - quantity
+equip - location equipped
+identify - identified or unidentified
+refine - refine rate of item
+attribute - attribute of item
+card0 - 1st card in item
+card1 - 2nd card in item
+card2 - 3rd card in item
+card3 - 4th card in item
