@@ -1,5 +1,5 @@
+#summary Recruitment page for the Flux project, contains details.
 #labels Featured
-#Recruitment page for the Flux project, contains details.
 
 = Introduction =
 So, here's how it goes.  Me and Paradox924X started this project but just us two alone is too much for a project with as large a goal (and many) as Flux has.
