@@ -19,6 +19,6 @@ Here are the requirements for participating in the project:
   * Must be intimately familiar with PHP5-based object-oriented programming
   * Must be familiar with the PDO library
   * Must know how to use Subversion
-  * Must be familiar with the way Flux currently works'
+  * Must be familiar with the way Flux currently works
 
 And, that's about it.
