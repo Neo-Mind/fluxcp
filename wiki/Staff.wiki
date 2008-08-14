@@ -1,0 +1,8 @@
+#summary Staff information including their real names, handles and location.
+
+= Staff =
+This is a list of all our current staff.
+
+|| *Handle* || *Real name* || *Position* || *Location* || *Also goes by* ||
+|| Byteflux || Matthew Harris || Owner/Developer || Seoul, South Korea || kuja/shugotenshi ||
+|| Paradox924X || || Owner/Developer || || ||
