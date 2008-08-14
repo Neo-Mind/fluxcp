@@ -5,7 +5,7 @@ This is a list of all our current staff.
 
 || *Handle* || *Real name* || *Position* || *Location* || *Also goes by* ||
 || Byteflux || Matthew Harris || Owner/Developer || Seoul, South Korea || kuja/shugotenshi ||
-|| Paradox924X || || Owner/Developer || || ||
+|| Paradox924X || Nikunj Mehta || Owner/Developer || Orlando, Florida || Stickman924/Nik924X ||
 
 = Retired =
 None yet ;)
