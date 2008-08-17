@@ -11,6 +11,7 @@ The features have been divided into relevant (or what we think are relevant) sec
   * Easily extendable API. ^Planned^
   * Donation/points interface using RO cash points payable via popular payment gateways and PayPal IPN ^Planned / Priority^
   * Prepared Invision PowerBoard and phpBB SQL scripts for integrating users database with said forum software ^Planned^
+  * Player abuse/harassment/misbehavior report system. ^Planned^
 
 == Player-Informational ==
 
