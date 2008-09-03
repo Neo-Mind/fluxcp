@@ -1,0 +1,8 @@
+#summary One-sentence summary of this page.
+
+= Requirements =
+
+The Flux Control Panel doesn't require very many things, only:
+*PHP5 or above*, *PDO extension for PHP5*, and *MySQL5 or above*.
+
+Optionally you may want to have *gd2* and *tidy* support for some small features, though not required.
