@@ -1,0 +1,5 @@
+#summary Collection of helpful screencasts
+
+Here you'll find some useful screencasts that will help you learn new things about Flux as well as guide you in setting it up and using it.
+
+  * [http://screencast.com/t/dKCCSWnZVw Making Flux Work With PayPal] (2008-09-26)
