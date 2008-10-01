@@ -23,7 +23,7 @@ The features have been divided into relevant (or what we think are relevant) sec
   * Homunculus Ladder - Homunculus Name, Homunculus Owner, Homunculus Type, Homunculus Level, Homunculus Intimacy. ^Planned^
   * MvP Ladder - Name, Class, Level, Number of MvPs Killed. ^Planned^
   * Castle Information - List of castles with currently ruling guild. Guild name will be clickable to provide information on the guild including Guild Name, Leader, Guild Level, Members, Members Online, Avg Level, Guild Experience. (Unavailable during WoE) ^Planned^
-  * Searchable Item and Mob Database. Rates will automatically be adjusted based on server rates. ^Planned^
+  * Searchable Item and Mob Database. Rates will automatically be adjusted based on server rates. ^DONE^
 
 == Player-Account/Character Services ==
 
