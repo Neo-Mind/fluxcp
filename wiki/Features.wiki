@@ -6,19 +6,20 @@ The features have been divided into relevant (or what we think are relevant) sec
 
 == General ==
 
-  * Clean PHP-based configuration format. ^In Progress / Priority^
-  * Multi-server support (this includes multiple login servers and char/map server pairs). ^In Progress / Priority^
+  * Clean PHP-based configuration format. ^DONE^
+  * Multi-server support (this includes multiple login servers and char/map server pairs). ^DONE^
   * Easily extendable API. ^Planned^
-  * Donation/points interface using RO cash points payable via popular payment gateways and PayPal IPN ^Planned / Priority^
+  * Donation capabilities through PayPal. ^DONE^
   * Prepared Invision PowerBoard and phpBB SQL scripts for integrating users database with said forum software ^Planned^
   * Player abuse/harassment/misbehavior report system. ^Planned^
 
 == Player-Informational ==
 
-  * Who Is Online - Name, Class, and Level. / Statisics and distribution of players across maps. ^Planned / Priority^
-  * Player Ladder - Name, Class, Level, Zeny, Online Status. ^Planned^
+  * Who Is Online - Name, Class, and Level. ^DONE^
+  * Statisics and distribution of players across maps. ^Planned / Priority^
+  * Player Ladder - Name, Class, Level, Zeny, Online Status. ^In-Progress^
   * Guild Ladder - Guild Name, Guild Leader, Guild Level, Number of Member/Max Number of Members, Members Online, Average Level of Guild Members, Guild Experience. ^Planned^
-  * Zeny Ladder - Name, Class, Level, Zeny. ^Planned^
+  * Zeny Ladder - Name, Class, Level, Zeny. ^In-Progress^
   * Homunculus Ladder - Homunculus Name, Homunculus Owner, Homunculus Type, Homunculus Level, Homunculus Intimacy. ^Planned^
   * MvP Ladder - Name, Class, Level, Number of MvPs Killed. ^Planned^
   * Castle Information - List of castles with currently ruling guild. Guild name will be clickable to provide information on the guild including Guild Name, Leader, Guild Level, Members, Members Online, Avg Level, Guild Experience. (Unavailable during WoE) ^Planned^
@@ -26,10 +27,10 @@ The features have been divided into relevant (or what we think are relevant) sec
 
 == Player-Account/Character Services ==
 
-  * Password Changing with dates and IPs of previous password changes. ^Planned / Priority^
+  * Password Changing with dates and IPs of previous password changes. ^Partially Done^
   * Email Changing with dates and IPs of previous email changes. ^Planned / Priority^
-  * Account Summary - Number of logins, Character Detail with Slot, Name, Char ID, Class, Level, Zeny, Number of Deaths. Ability to move a character to another slot. ^Planned / Priority^
-  * Gender Change Services. ^Planned / Priority^
+  * Account Summary - Number of logins, Character Detail with Slot, Name, Char ID, Class, Level, Zeny, Number of Deaths. Ability to move a character to another slot. ^DONE^
+  * Gender Change Services. ^DONE^
   * Login Log - Dates/IPs of successful/failed login attempts. ^Planned / Priority^
   * Character Divorce - Divorce one of your characters from his/her partner. ^Planned^
   * Reset Palettes/Equipment. ^Planned^
