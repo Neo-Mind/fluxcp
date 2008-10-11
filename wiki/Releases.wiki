@@ -1,7 +1,7 @@
 #summary Current stable and unstable releases.
 #labels Featured
 
-= Stable =
+== Stable ==
 _The stable releases are recommended for people who run Flux in a production environment!_
 
   * None
@@ -11,15 +11,15 @@ _RC's will be released prior to marking a particular version as stable to ensure
 
   * None
 
-= Beta =
+== Beta ==
 _These are releases that haven't undergone sufficient testing to be considered safe in a production environment._
 
   * None
 
-= Alpha =
+== Alpha ==
 _These are releases that have undergone very little or no testing, and are not at all considered safe in a production environment._
 
-  * None
+  * [http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-0.1.0a.zip fluxcp-0.0.1a]
 
-= Release Information =
+== Release Information ==
 _Alpha and Beta releases will generally be made when we want to test new features for Flux and receive community feedback._
