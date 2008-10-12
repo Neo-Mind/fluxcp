@@ -19,7 +19,7 @@ _These are releases that haven't undergone sufficient testing to be considered s
 == Alpha ==
 _These are releases that have undergone very little or no testing, and are not at all considered safe in a production environment._
 
-  * [http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-0.1.0a.zip fluxcp-0.0.1a]
+  * [http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-0.1.0a.zip fluxcp-0.1.0a]
 
 == Release Information ==
 _Alpha and Beta releases will generally be made when we want to test new features for Flux and receive community feedback._
