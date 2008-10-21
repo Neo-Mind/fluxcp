@@ -1,8 +1,12 @@
-#summary One-sentence summary of this page.
+#summary Requirements for running Flux
 
-= Requirements =
+== Requirements ==
 
-The Flux Control Panel doesn't require very many things, only:
-*PHP5 or above*, *PDO extension for PHP5*, and *MySQL5 or above*.
+Flux requires a few things:
 
-Optionally you may want to have *gd2* and *tidy* support for some small features, though not required.
+  * PHP 5.2
+  * PDO extension for PHP5 (including PHP_MYSQL support)
+  * MySQL 5
+  * Optional: GD2 (for guild emblems and registration CAPTCHA)
+  * Optional: Tidy (for cleaner HTML output)
+  * Optional: mod_rewrite support for UseCleanUrls feature
