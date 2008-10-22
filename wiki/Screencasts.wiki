@@ -2,4 +2,7 @@
 
 Here you'll find some useful screencasts that will help you learn new things about Flux as well as guide you in setting it up and using it.
 
+  * [http://screencast.com/t/UlLFiQCV5 Installation on Windows] (2008-10-22)
+  * [http://screencast.com/t/ghVf5fo8h Advanced Application Config] (2008-10-22)
+  * [http://screencast.com/t/GrklYdt3j Advanced Application Config 2] (2008-10-22)
   * [http://screencast.com/t/dKCCSWnZVw Making Flux Work With PayPal] (2008-09-26)
