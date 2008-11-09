@@ -15,27 +15,46 @@ The features have been divided into relevant (or what we think are relevant) sec
 
 == Player-Informational ==
 
-  * Who Is Online - Name, Class, and Level. ^DONE^
-  * Statisics and distribution of players across maps. ^Planned / Priority^
-  * Player Ladder - Name, Class, Level, Zeny, Online Status. ^In-Progress^
-  * Guild Ladder - Guild Name, Guild Leader, Guild Level, Number of Member/Max Number of Members, Members Online, Average Level of Guild Members, Guild Experience. ^Planned^
-  * Zeny Ladder - Name, Class, Level, Zeny. ^In-Progress^
-  * Homunculus Ladder - Homunculus Name, Homunculus Owner, Homunculus Type, Homunculus Level, Homunculus Intimacy. ^Planned^
-  * MvP Ladder - Name, Class, Level, Number of MvPs Killed. ^Planned^
-  * Castle Information - List of castles with currently ruling guild. Guild name will be clickable to provide information on the guild including Guild Name, Leader, Guild Level, Members, Members Online, Avg Level, Guild Experience. (Unavailable during WoE) ^Planned^
-  * Searchable Item and Mob Database. Rates will automatically be adjusted based on server rates. ^DONE^
+  * Who Is Online - Name, Class, Level, Guild Name and Map. ^DONE^
+  * Statistics and distribution of players across maps. ^DONE^
+  * Character Ranking - Name, Class, Guild Name, Level and Experience. ^DONE^
+  * Guild Ranking - Guild Name, Guild Leader, Guild Level, Number of Member/Max Number of Members, Members Online, Average Level of Guild Members and Guild Experience. ^In-Progress^
+  * Zeny Ladder - Name, Zeny, Class, Level and Guild Name. ^DONE^
+  * Homunculus Ladder - Homunculus Name, Homunculus Owner, Homunculus Type, Homunculus Level and Homunculus Intimacy. ^Planned^
+  * MvP Ladder - Name, Class, Level and Number of MvPs Killed. ^Planned^
+  * Castle Information - List of castles with currently ruling guild. Guild name will be clickable to provide information on the guild including Guild Name, Leader, Guild Level, Members, Members Online, Avg Level and Guild Experience. (Unavailable during WoE) ^Planned^
+  * Searchable Item and Mob Database. Rates will automatically be adjusted based on server rates. Mob Skills detail. Item drops detail. ^DONE^
+  * Server Status with Number of Players Online. ^DONE^
+  * Account Information and Detail View. ^DONE^
+  * Character Information and Detail View. ^DONE^
+  * Guild Information and Detail View. ^Planned^
+  * Listing of WoE Hours in Server time and Current System time. ^DONE^
 
 == Player-Account/Character Services ==
 
   * Password Changing with dates and IPs of previous password changes. ^Partially Done^
-  * Email Changing with dates and IPs of previous email changes. ^Planned / Priority^
-  * Account Summary - Number of logins, Character Detail with Slot, Name, Char ID, Class, Level, Zeny, Number of Deaths. Ability to move a character to another slot. ^DONE^
+  * Email Changing with dates and IPs of previous email changes. ^Partially Done^
+  * Account Summary - Number of logins, Character Detail with Slot, Name, Class, Level, Zeny, Guild Name and Online Status. ^DONE^
   * Gender Change Services. ^DONE^
   * Login Log - Dates/IPs of successful/failed login attempts. ^Planned / Priority^
   * Character Divorce - Divorce one of your characters from his/her partner. ^Planned^
-  * Reset Palettes/Equipment. ^Planned^
+  * Reset Palettes/Equipment. ^DONE^
+  * Reset Position. ^DONE^
+  * Preferences - Display on Who's Online or not, Hide current map from Who's Online and Hide character from zeny ranking or not. ^DONE^
+  * Item Shop - Purchasing. ^DONE^
+  * Account Email Confirmation. ^DONE^
+  * Resending Validation Email. ^DONE^
+  * Password Reset. ^DONE^
 
 == Administrator ==
 
-  * Extended Who Is Online - Name, Class, Level, Location, Party Name, Guild Name. / Statisics and distribution of players across maps. ^Planned / Priority^
-  * GM access control and promotion / demotion management. ^Planned / Priority^
+  * Unrestricted Who Is Online. ^DONE^
+  * Account View/Search. Ability to modify Emails, Genders, Login counts, Credit balances, last login dates and last used ips. Ability to apply/revoke temporary/permanent bans -- Actions logged. ^DONE^
+  * Character View/Search. Ability to modify character information. ^Partially Done^
+  * Guild View/Search. Ability to modify guild information. ^Partially Done^
+  * Guild Emblem Exportation. ^DONE^
+  * IP Banning. Ability to place/lift/modify/search IP Bans. ^Partially Done^
+  * CP Logs - View/Search Detailed Paypal Transactions Log, View/Search Detailed CP Login Log. ^DONE^
+  * eA Logs - View/Search Detailed eA Login Logs. ^DONE^
+  * Item Shop - Add/Modify/Remove items with support for cost, quantity, item images and descriptions. ^DONE^
+  * Send Mail via Form Mailer. ^DONE^
