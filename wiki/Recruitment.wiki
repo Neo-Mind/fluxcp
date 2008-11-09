@@ -2,7 +2,7 @@
 #labels Featured
 
 = Introduction =
-So, here's how it goes.  Me and Paradox924X started this project but just us two alone is too much for a project with as large a goal (and many) as Flux has.
+So, here's how it goes.  Byteflux and Paradox924X started this project but just two people alone is too much for a project with as large a goal (and many) as Flux has.
 
 For that reason, we are recruiting talented members to our staff, people ranging from eA experts to just PHP developers. Check out the requirements below for more details.
 
@@ -21,4 +21,4 @@ Here are the requirements for participating in the project:
   * Must know how to use Subversion
   * Must be familiar with the way Flux currently works
 
-And, that's about it.
+To apply, simply contact either Byteflux or Paradox924X in our IRC Channel (#flux on irc.deltaanime.net).
