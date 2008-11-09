@@ -133,9 +133,9 @@ next_exp - guild exp needed to next guild level
 skill_point - available guild skill points
 mes1 - notice line 1
 mes2 - notice line 2
-emblem_len - size of emblem (???)
-emblem_id - emblem id (???)
-emblem_data - emblem data (???)
+emblem_len - size of emblem data
+emblem_id - emblem id
+emblem_data - raw binary emblem data
 }}}
 == guild_alliance ==
 {{{
@@ -239,7 +239,7 @@ max_sp - maximum sp
 skill_point - available skill points
 alive - alive status
 rename_flag - renamed status
-vaporize - ???
+vaporize - vaporized status
 }}}
 == interlog ==
 {{{
@@ -318,6 +318,27 @@ char_id - character id
 map - mapname
 x - x coordinate
 y - y coordinate
+}}}
+== mercenary ==
+{{{
+mer_id - unique mercenary id
+char_id - character id
+class - mercenary type
+hp - hp
+sp - sp
+kill_counter - number of kills
+life_time - contract length
+}}}
+== mercenary_owner ==
+{{{
+char_id - character id
+merc_id - mercenary id
+arch_calls - number of archer mercenary contracts made
+arch_faith - ???
+spear_calls - number of spear mercenary contracts made
+spear_faith - ???
+sword_calls - number of sword mercenary contracts made
+sword_faith - ???
 }}}
 == party ==
 {{{
