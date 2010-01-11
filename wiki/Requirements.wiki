@@ -9,4 +9,4 @@ Flux requires a few things:
   * MySQL 5
   * Optional: GD2 (for guild emblems and registration CAPTCHA)
   * Optional: Tidy (for cleaner HTML output)
-  * Optional: mod_rewrite support for UseCleanUrls feature
+  * Optional: mod_rewrite support for !UseCleanUrls feature
