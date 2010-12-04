@@ -1,4 +1,5 @@
 #summary Collection of helpful screencasts
+#labels Featured
 
 Here you'll find some useful screencasts that will help you learn new things about Flux as well as guide you in setting it up and using it.
 
