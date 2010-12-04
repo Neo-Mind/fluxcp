@@ -7,3 +7,4 @@ Here you'll find some useful screencasts that will help you learn new things abo
   * [http://screencast.com/t/QcmmZEqL1 Advanced Application Setup on Windows] (2008-10-23)
   * [http://screencast.com/t/xXqKstXmo User Features Overview] (2008-10-23)
   * [http://screencast.com/t/dKCCSWnZVw Making Flux Work With PayPal] (2008-09-26)
+  * [http://www.paradox924x.com/stuff/screencasts/multiple_charmap_servers.swf Multiple CharMap Servers Using One Login Server] (2010-12-04)
