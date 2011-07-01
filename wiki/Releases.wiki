@@ -4,6 +4,11 @@
 == Stable ==
 _The stable releases are recommended for people who run Flux in a production environment!_
 
+  * [http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-1.0.0.1000.rar fluxcp-1.0.0.1000.rar]
+
+= Older Releases ==
+_Older releases are previous stable releases that are no longer recommended for use in a production environment._
+
   * [http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-1.0.0.962.rar fluxcp-1.0.0.962.rar]
 
 = Release Candidates =
