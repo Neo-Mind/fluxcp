@@ -103,16 +103,16 @@ if (count($_POST)) {
 				$errorMessage = Flux::message('PasswordsDoNotMatch');
 				break;
 			case Flux_RegisterError::PASSWORD_NEED_UPPER:
-				$errorMessage = Flux::message ('PasswordNeedUpper');
+				$errorMessage = sprintf(Flux::message('PasswordNeedUpper'), Flux::config('PasswordMinUpper'));
 				break;
 			case Flux_RegisterError::PASSWORD_NEED_LOWER:
-				$errorMessage = Flux::message ('PasswordNeedLower');
+				$errorMessage = sprintf(Flux::message('PasswordNeedLower'), Flux::config('PasswordMinLower'));
 				break;
 			case Flux_RegisterError::PASSWORD_NEED_NUMBER:
-				$errorMessage = Flux::message ('PasswordNeedNumber');
+				$errorMessage = sprintf(Flux::message('PasswordNeedNumber'), Flux::config('PasswordMinNumber'));
 				break;
 			case Flux_RegisterError::PASSWORD_NEED_SYMBOL:
-				$errorMessage = Flux::message ('PasswordNeedSymbol');
+				$errorMessage = sprintf(Flux::message('PasswordNeedSymbol'), Flux::config('PasswordMinSymbol');
 				break;
 			case Flux_RegisterError::EMAIL_ADDRESS_IN_USE:
 				$errorMessage = Flux::message('EmailAddressInUse');
