@@ -112,7 +112,7 @@ if (count($_POST)) {
 				$errorMessage = sprintf(Flux::message('PasswordNeedNumber'), Flux::config('PasswordMinNumber'));
 				break;
 			case Flux_RegisterError::PASSWORD_NEED_SYMBOL:
-				$errorMessage = sprintf(Flux::message('PasswordNeedSymbol'), Flux::config('PasswordMinSymbol');
+				$errorMessage = sprintf(Flux::message('PasswordNeedSymbol'), Flux::config('PasswordMinSymbol'));
 				break;
 			case Flux_RegisterError::EMAIL_ADDRESS_IN_USE:
 				$errorMessage = Flux::message('EmailAddressInUse');
