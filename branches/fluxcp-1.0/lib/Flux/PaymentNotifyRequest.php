@@ -334,9 +334,9 @@ class Flux_PaymentNotifyRequest {
 		$qString  = 'cmd=_notify-validate&'.$this->ipnVarsToQueryString();
 		$request  = "POST /cgi-bin/webscr HTTP/1.1\r\n";
 		$request .= "Content-Type: application/x-www-form-urlencoded\r\n";
-		$request .= 'Content-Length: '.strlen($qString)."\r\n\r\n";
+		$request .= 'Content-Length: '.strlen($qString)."\r\n";
 		$request .= 'Host: '.$this->ppServer."\r\n";
-		$request .= "Connection: close\r\n";
+		$request .= "Connection: close\r\n\r\n";
 		$request .= $qString;
 
 		$this->logPayPal('Query string: %s', $qString);
