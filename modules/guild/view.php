@@ -56,7 +56,7 @@ $col .= "WHEN DATE_FORMAT(NOW(), '%Y-%m-%d') THEN 'Today' ";
 $col .= "WHEN DATE_FORMAT(DATE_SUB(NOW(), INTERVAL 1 DAY), '%Y-%m-%d') THEN 'Yesterday' ";
 $col .= "ELSE CONCAT(DATEDIFF(NOW(), acc.lastlogin), ' Days Ago') ";
 $col .= "END) AS lastlogin, ";
-$col .= "roster.exp AS devotion, roster.position, ";
+$col .= "IFNULL(roster.exp, 0) AS devotion, roster.position, ";
 $col .= "pos.name AS position_name, pos.mode, IFNULL(pos.exp_mode, 0) AS guild_tax";
 
 $sql  = "SELECT $col FROM {$server->charMapDatabase}.`char` AS ch ";
