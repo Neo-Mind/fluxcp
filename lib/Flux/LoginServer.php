@@ -219,23 +219,17 @@ class Flux_LoginServer extends Flux_BaseServer {
 	 */
 	public function temporarilyBan($bannedBy, $banReason, $accountID, $until)
 	{
-		$info  = $this->getBanInfo($accountID);
 		$table = Flux::config('FluxTables.AccountBanTable');
 		
-		if (!$info || $info->ban_type !== '1') {
-			$sql  = "INSERT INTO {$this->loginDatabase}.$table (account_id, banned_by, ban_type, ban_until, ban_date, ban_reason) ";
-			$sql .= "VALUES (?, ?, 1, ?, NOW(), ?)";
+		$sql  = "INSERT INTO {$this->loginDatabase}.$table (account_id, banned_by, ban_type, ban_until, ban_date, ban_reason) ";
+		$sql .= "VALUES (?, ?, 1, ?, NOW(), ?)";
+		$sth  = $this->connection->getStatement($sql);
+		
+		if ($sth->execute(array($accountID, $bannedBy, $until, $banReason))) {
+			$ts   = strtotime($until);
+			$sql  = "UPDATE {$this->loginDatabase}.login SET state = 0, unban_time = '$ts' WHERE account_id = ?";
 			$sth  = $this->connection->getStatement($sql);
-			
-			if ($sth->execute(array($accountID, $bannedBy, $until, $banReason))) {
-				$ts   = strtotime($until);
-				$sql  = "UPDATE {$this->loginDatabase}.login SET state = 0, unban_time = '$ts' WHERE account_id = ?";
-				$sth  = $this->connection->getStatement($sql);
-				return $sth->execute(array($accountID));
-			}
-			else {
-				return false;
-			}
+			return $sth->execute(array($accountID));
 		}
 		else {
 			return false;
@@ -247,22 +241,16 @@ class Flux_LoginServer extends Flux_BaseServer {
 	 */
 	public function permanentlyBan($bannedBy, $banReason, $accountID)
 	{
-		$info  = $this->getBanInfo($accountID);
 		$table = Flux::config('FluxTables.AccountBanTable');
 		
-		if (!$info || $info->ban_type !== '2') {
-			$sql  = "INSERT INTO {$this->loginDatabase}.$table (account_id, banned_by, ban_type, ban_until, ban_date, ban_reason) ";
-			$sql .= "VALUES (?, ?, 2, '0000-00-00 00:00:00', NOW(), ?)";
+		$sql  = "INSERT INTO {$this->loginDatabase}.$table (account_id, banned_by, ban_type, ban_until, ban_date, ban_reason) ";
+		$sql .= "VALUES (?, ?, 2, '0000-00-00 00:00:00', NOW(), ?)";
+		$sth  = $this->connection->getStatement($sql);
+		
+		if ($sth->execute(array($accountID, $bannedBy, $banReason))) {
+			$sql  = "UPDATE {$this->loginDatabase}.login SET state = 5, unban_time = 0 WHERE account_id = ?";
 			$sth  = $this->connection->getStatement($sql);
-			
-			if ($sth->execute(array($accountID, $bannedBy, $banReason))) {
-				$sql  = "UPDATE {$this->loginDatabase}.login SET state = 5, unban_time = 0 WHERE account_id = ?";
-				$sth  = $this->connection->getStatement($sql);
-				return $sth->execute(array($accountID));
-			}
-			else {
-				return false;
-			}
+			return $sth->execute(array($accountID));
 		}
 		else {
 			return false;
