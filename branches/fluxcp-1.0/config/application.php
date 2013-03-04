@@ -16,6 +16,7 @@ return array(
 	'MissingEmblemBMP'     => 'empty.bmp',              //
 	'ItemIconNameFormat'   => '%d.gif',                 // The filename format for item icons (defaults to {itemid}.gif).
 	'ItemImageNameFormat'  => '%d.png',                 // The filename format for item images (defaults to {itemid}.png).
+	'JobImageNameFormat'   => '%d_%s.png',              // The filename format for job images (defaults to {jobid}_{gender}.png where {gender} is either M or F).
 	'ForceEmptyEmblem'     => false,                    // Forcefully display empty guild emblems, helpful when you don't have GD2 installed.
 	'EmblemCacheInterval'  => 12,                       // Hourly interval to re-cache guild emblems (set to 0 to disable emblem cache).
 	'SessionCookieExpire'  => 48,                       // Duration in hours.

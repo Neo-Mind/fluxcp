@@ -16,6 +16,12 @@
 		</td>
 		<th>Character Slot</th>
 		<td><?php echo number_format($char->char_num+1) ?></td>
+		<?php if ($image=$this->jobImage($char->char_class, $char->gender)): ?>
+			<td rowspan="10"
+				style="width: 150px; text-align: center; vertical-alignment: middle">
+				<img src="<?php echo $image ?>" />
+			</td>
+		<?php endif ?>
 	</tr>
 	<tr>
 		<th>Character</th>
@@ -198,7 +204,7 @@
 	</tr>
 	<tr>
 		<th>Character Stats</th>
-		<td colspan="6">
+		<td colspan="4">
 			<table class="character-stats">
 				<tr>
 					<td><span class="stat-name">STR</span></td>
