@@ -1,0 +1,29 @@
+## Stable ##
+_The stable releases are recommended for people who run Flux in a production environment!_
+
+  * [fluxcp-1.0.0.1000.rar](http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-1.0.0.1000.rar)
+
+# Older Releases #
+_Older releases are previous stable releases that are no longer recommended for use in a production environment._
+
+  * [fluxcp-1.0.0.962.rar](http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-1.0.0.962.rar)
+
+# Release Candidates #
+_RC's will be released prior to marking a particular version as stable to ensure the release is nearly production ready._
+
+  * None
+
+## Beta ##
+_These are releases that haven't undergone sufficient testing to be considered safe in a production environment._
+
+  * [fluxcp-1.0.0.691.zip](http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-1.0.0.691.zip)
+  * [fluxcp-1.0.0.729.zip](http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-1.0.0.729.zip)
+  * [fluxcp-1.0.0.945.zip](http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-1.0.0.945.zip)
+
+## Alpha ##
+_These are releases that have undergone very little or no testing, and are not at all considered safe in a production environment._
+
+  * [fluxcp-0.1.0a](http://code.google.com/p/fluxcp/downloads/detail?name=fluxcp-0.1.0a.zip)
+
+## Release Information ##
+_Alpha and Beta releases will generally be made when we want to test new features for Flux and receive community feedback._
